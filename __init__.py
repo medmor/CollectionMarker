@@ -1,6 +1,6 @@
 bl_info = {
     "name": "Collection Marker Sync",
-    "author": "Antigravity",
+    "author": "medmor",
     "version": (1, 0),
     "blender": (3, 0, 0),
     "location": "Timeline",
