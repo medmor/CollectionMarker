@@ -67,7 +67,7 @@ def update_collections_by_marker(scene):
     found_match = False
     for layer_col in view_layer.layer_collection.children:
         # Ignore specific collection
-        if layer_col.name == "MarkerSyncIgnore":
+        if layer_col.name.startswith("_"):
             continue
 
         # Exclude if the name doesn't match the active marker's name
